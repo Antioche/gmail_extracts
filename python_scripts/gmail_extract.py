@@ -1,8 +1,10 @@
 from imap_tools import MailBox
 import os
 
-address = 'tixieran@gmail.com'
-password = 'Fq0eNK7@BCD&I'
+# Catch arguments one by one
+address =  str(sys.argv[1])
+password = str(sys.argv[2])
+
 date_low = 201801
 date_high = 201802
 
