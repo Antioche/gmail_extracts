@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20180122T063000Z
+DTEND:20180122T083000Z
+DTSTAMP:20180120T084338Z
+ORGANIZER;CN=Mathilde Vachon:mailto:mathilde.vachon@gmail.com
+UID:c8pjicpi61hj8bb3c5ijcb9k6lh68b9ocopm6b9n6sr34c9i6orm6cpoc4@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Mathilde Vachon;X-NUM-GUESTS=0:mailto:mathilde.vachon@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=tixieran@gmail.com;X-NUM-GUESTS=0:mailto:tixieran@gmail.com
+CREATED:20180120T084337Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of the descriptio
+ n.\n\nView your event at https://www.google.com/calendar/event?action=VIEW&
+ eid=YzhwamljcGk2MWhqOGJiM2M1aWpjYjlrNmxoNjhiOW9jb3BtNmI5bjZzcjM0YzlpNm9ybTZ
+ jcG9jNCB0aXhpZXJhbkBt&tok=MjUjbWF0aGlsZGUudmFjaG9uQGdtYWlsLmNvbWVjY2NkODUwZ
+ TRkMjUzOGEyZjAxNTlhMGZlNTMxOGJkYjE5NTA2NzQ&ctz=Pacific/Auckland&hl=en_GB.\n
+ -::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~::~:~::-
+LAST-MODIFIED:20180120T084337Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Cincin
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
