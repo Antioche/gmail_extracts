@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//LearningSource//NONSGML v9.9.0.0//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:2f97e528-8cd6-4229-adab-aad19afa2df1@learningsource.co.nz
+DTSTAMP:20180126T074544Z
+ORGANIZER;CN=New Zealand School of Wines and Spirits:MAILTO:gillian@nzsws.co.nz
+DTSTART:20180216T200000Z
+DTEND:20180217T033000Z
+LAST-MODIFIED:20180126T074544Z
+STATUS:CONFIRMED
+SUMMARY:Wellington Level 1 Award in Wines 
+LOCATION:TBC, , TBC
+DESCRIPTION:Course:\nWellington Level 1 Award in Wines \nhttps://nzsws.arlo.co/courses/50-wellington-level-1-award-in-wines\n\nMap:\nhttp://maps.google.com/maps?q=-40.900557\,174.88597100000004&ll=-40.900557\,174.88597100000004&z=16\n\n\nIf you require further information or support regarding this registration\, please feel free to call us on 0274954443 or send an email to gillian@nzsws.co.nz: mailto:gillian@nzsws.co.nz.
+CLASS:PUBLIC
+BEGIN:VALARM
+TRIGGER:-PT24H
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Wellington Level 1 Award in Wines 
+END:VALARM
+END:VEVENT
+END:VCALENDAR

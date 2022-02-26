@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 11.2.1//EN
+N:Tixier;Helene;;;
+FN: Helene  Tixier 
+EMAIL;type=INTERNET;type=HOME;type=pref:helene.tixier@gmail.com
+TEL;type=CELL;type=VOICE;type=pref:00 64 22 107 7099
+TEL;type=WORK;type=VOICE:00 216 27 825 697
+TEL;type=IPHONE;type=CELL;type=VOICE:06 80 28 28 41
+item1.ADR;type=WORK;type=pref:;;9 Rue El Farabi\nLa Marsa Corniche;Tunis;;2070;Tunisie
+item1.X-ABADR:tn
+END:VCARD
