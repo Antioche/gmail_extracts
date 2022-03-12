@@ -11,8 +11,8 @@ address =  str(sys.argv[1])
 password = str(sys.argv[2])
 #print (address)
 #print (password)
-date_low = 20180101
-date_high = 20190101
+date_low = 20160201
+date_high = 20160229
 
 # get all attachments from INBOX and save them to files
 with MailBox('imap.gmail.com').login(address, password, 'INBOX') as mailbox:
@@ -35,7 +35,7 @@ with MailBox('imap.gmail.com').login(address, password, 'INBOX') as mailbox:
         sender = format(msg.from_)
         sender = sender.replace(' ','') 
         #print(sender)
-        short_path = '/home/tixiera/projects/gmail_extracts/exports/attachments/' + sender
+        short_path = '/home/tixiera/gmail/inbox_exports/attachments/' + sender
         #print(short_path)
         email_long_path = short_path + '/' + subject
         #print(email_long_path)
