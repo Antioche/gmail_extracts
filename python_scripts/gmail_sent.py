@@ -1,5 +1,4 @@
 from imap_tools import MailBox
-import email
 import os
 import sys
 import emoji
@@ -16,7 +15,7 @@ date_low = 201801010000
 date_high = 201901010000
 
 # get all attachments from INBOX and save them to files
-with MailBox('imap.gmail.com').login(address, password, 'INBOX') as mailbox:
+with MailBox('imap.gmail.com').login(address, password, '[Gmail]/Sent Mail') as mailbox:
     for msg in mailbox.fetch():
         message_time_str = msg.date_str
         start = message_time_str.find(':') - 2
@@ -47,8 +46,8 @@ with MailBox('imap.gmail.com').login(address, password, 'INBOX') as mailbox:
             subject = subject.replace("'",'') 
             subject = subject.replace(' ','_') + '_' + message_date + '.html'
             sender = format(msg.from_values.name)
-            sender = sender.replace(' ','')
-            sender = sender.replace('.','')  
+            sender = sender.replace(' ','') 
+            sender = sender.replace('.','') 
             #print(sender)
             short_path = '/home/tixiera/gmail/inbox_exports/attachments/' + sender
             #print(short_path)
